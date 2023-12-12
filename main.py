@@ -21,10 +21,9 @@ URL_FORZAR_TERMINO_SOLICITUD = "/v1/solicitud/{}/forzar-termino-solcitud-wf/{}/"
 # ===================== servicios APISOL-INTERNO =====================
 
 # ===================== PARAMS TO main ===============================
-#DATE_START = "2023-07-20 00:00:00"
-#DATE_END = "2023-07-21 23:59:59"
-DATE_START = "2023-01-01 11:35:47"
-DATE_END = "2023-12-12 11:35:47"
+DATE_START = "2023-07-20 00:00:00"
+DATE_END = "2023-07-22 23:59:59"
+
 ID_FASE = 23
 # ===================== PARAMS TO main ===============================
 
