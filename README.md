@@ -12,7 +12,7 @@ Para ejecutar este script solo es necesario crear un ambiente virtual en python:
 
 ** Ejecución
 ============================================
-Reemplazar APISOL_INTERNO
-Reemplazar APISOL_ORQUESTADOR
+* Reemplazar APISOL_INTERNO
+* Reemplazar APISOL_ORQUESTADOR
 
 python3 main.py
