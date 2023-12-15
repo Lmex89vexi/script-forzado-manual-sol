@@ -60,7 +60,7 @@ def main(date_start, date_end, id_fase: int):
                 url=APISOL_ORQUESTADOR + URL_DELETE_WORKFLOW_SOLICITUD.format(id_solicitud, email)
             )
             logger.info(
-                f" DELETE worflow sol--- id_solicitud {id_solicitud} email {email}  ----- response {response}"
+                f" creacion--- id_solicitud {id_solicitud} email {email}  ----- response {response}"
             )
             response = api_server_put_request(
                 url=APISOL_ORQUESTADOR + URL_FORZAR_TERMINO_SOLICITUD.format(id_solicitud, email), 
@@ -71,7 +71,7 @@ def main(date_start, date_end, id_fase: int):
             )
         except Exception as exc:
             logger.error(
-                f" ---Error en mandar evento wh id_solicitud {id_solicitud}  email {email} Error:{exc}"
+                f" ---Error en forzar termino id_solicitud {id_solicitud}  email {email} Error:{exc}"
             )
 
 
